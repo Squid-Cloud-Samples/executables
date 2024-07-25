@@ -5,20 +5,19 @@
 ### What it is:
 
 - A Squid backend that has not been edited post-initialization.
-- A React frontend that uses Squid's [React SDK](https://docs.squid.cloud/docs/development-tools/react-sdk/) and [built-in database](https://docs.squid.cloud/docs/integrations/database/built-in).
+- A React frontend that uses Squid's [React SDK](https://docs.squidcloud.ai/docs/development-tools/react-sdk/) and [built-in database](https://docs.squidcloud.ai/docs/integrations/database/built-in).
 
 ### What you'll need:
 
-- A [Squid Cloud](https://console.squid.cloud) account
+- A [Squid AI](https://console.squid.cloud) account
 - Node.js and npm
-- [The Squid CLI](https://docs.squid.cloud/docs/development-tools/local-dev-cli)
 - An email account to use to send emails with [Nodemailer](https://nodemailer.com/).
 
 ### Running the project
 
-1. In the [Squid Cloud Console](https://console.squid.cloud) create a new app called `executables-sample`.
+1. In the [Squid Console](https://console.squid.cloud) create a new app called `executables-sample`.
 2. Connect the Squid backend to the new app you created by scrolling in the console to the **Backend** section and selecting **Create .env file**. Copy the command.
-3. Enter your email login credentials to the **Secrets** section of the Console. The "Send an Email" example will use these credentials for sending the email.
+3. Enter your email login credentials to the **Secrets** section of the console. The "Send an Email" example will use these credentials for sending the email.
    - The code is expecting the secrets to be called `email_username` and `email_password`. Adjust as needed.
 4. Open a terminal window and change to the `backend` directory.
 
@@ -80,4 +79,4 @@ npm run dev
 
 ### Next Steps:
 
-To learn more, visit our [tutorials](https://docs.squid.cloud/docs/tutorials/) or read about [Squid Executables](https://docs.squid.cloud/docs/development-tools/backend/executables) and [Squid Secrets](https://docs.squid.cloud/docs/development-tools/client-sdk/secrets)!
+To learn more, visit our [tutorials](https://docs.squidcloud.ai/docs/tutorials/) or read about [Squid Executables](https://docs.squidcloud.ai/docs/development-tools/backend/executables) and [Squid Secrets](https://docs.squidcloud.ai/docs/development-tools/client-sdk/secrets)!
